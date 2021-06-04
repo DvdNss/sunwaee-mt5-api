@@ -12,8 +12,6 @@ import time
 import fasttext
 from fastapi import FastAPI
 
-os.system('pip freeze venv/ > requirements.txt')
-
 
 def ready_api_content():
     """
